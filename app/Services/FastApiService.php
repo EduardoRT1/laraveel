@@ -3,7 +3,7 @@
 namespace App\Services;
 
 use GuzzleHttp\Client;
-
+#use GuzzleHttp\Exception\GuzzleException;
 class FastApiService
 {
     protected $client;
